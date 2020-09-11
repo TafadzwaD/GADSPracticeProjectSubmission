@@ -59,3 +59,32 @@ Your translations code can rest here
 ```
 Your translations code can rest here
 ```
+
+<details>
+  <!-- The complete lab title goes here 👇🏾-->
+  <summary>Lab 4: GCP Google Cloud Fundamentals: Getting Started with GKEe</summary>
+  <!-- Provide path to the screenshot here. Example 👇🏾-->
+  <img src="screenshots\lab4.PNG">
+</details>
+
+## Translation code
+
+```
+Place the zone that Qwiklabs assigned me (us-central1)into an environment variable called MY_ZONE for convenience. (Cloud Shell)
+>> export MY_ZONE=us-central1-a
+
+Started a Kubernetes cluster managed by Kubernetes Engine. Named the cluster 'webfrontend', with aconfiguration of running 2 nodes:
+>>gcloud container clusters create webfrontend --zone $MY_ZONE --num-nodes 2
+
+To run and deploy a container, launch a single instance of the nginx container from the Cloud Shell prompt
+>>kubectl create deploy nginx --image=nginx:1.17.10
+
+To View the pod running the nginx container
+>>kubectl get pods
+
+The nginx container needs to be exposed to the internet and this is achieved by running the following command in the Cloud Shell
+>>kubectl expose deployment nginx --port 80 --type LoadBalancer
+
+To scale up the number of pods running on the service
+>>kubectl scale deployment nginx --replicas 3
+```
