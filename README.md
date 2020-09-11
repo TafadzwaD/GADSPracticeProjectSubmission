@@ -88,3 +88,43 @@ The nginx container needs to be exposed to the internet and this is achieved by 
 To scale up the number of pods running on the service
 >>kubectl scale deployment nginx --replicas 3
 ```
+
+
+<details>
+  <!-- The complete lab title goes here 👇🏾-->
+  <summary>Lab 5: GCP Fundamentals: GCP Fundamentals: Getting Started with App Engine</summary>
+  <!-- Provide path to the screenshot here. Example 👇🏾-->
+  <img src="screenshots\lab5.PNG">
+</details>
+
+## Translation code
+
+```
+Initialise App Engine and Choose the region
+>> gcloud app create --project=$DEVSHELL_PROJECT_ID
+
+Cloned the source code repository for a sample application in the hello_world directory:
+>>git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+
+Navigate To the source directory
+>>cd python-docs-samples/appengine/standard_python3/hello_world
+
+Update the packages list
+>>sudo apt-get update
+
+Set up a virtual environment for running the application
+>>sudo apt-get install virtualenv
+>>sudo apt-get install virtualenv
+
+Activate the virtual environment
+>>source venv/bin/activate
+
+Installing dependencies for project in main directory
+>>pip install  -r requirements.txt
+
+Run the application
+>>python main.py
+
+To Deploy the application
+>>gcloud app deploy
+```
