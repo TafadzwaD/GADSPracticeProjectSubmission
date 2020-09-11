@@ -46,3 +46,16 @@ To create a VM instance called my-vm-2 in that zone, I executed this command:
 ```
 Your translations code can rest here
 ```
+
+<details>
+  <!-- The complete lab title goes here 👇🏾-->
+  <summary>Lab 3: GCP Fundamentals: Getting Started with Cloud Marketplace</summary>
+  <!-- Provide path to the screenshot here. Example 👇🏾-->
+  <img src="screenshots\lab3.PNG">
+</details>
+
+## Translation code
+
+```
+Your translations code can rest here
+```
