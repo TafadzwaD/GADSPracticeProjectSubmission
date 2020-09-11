@@ -10,7 +10,7 @@
 Google Cloud Fundamentals: Getting Started with Compute Engine
 </summary>
   <!-- Provide path to the screenshot here. Example 👇🏾-->
-  <img src="screenshots/lab1.png">
+  <img src="screenshots/lab1.PNG">
 </details>
 
 ## Translation code
@@ -38,7 +38,7 @@ To create a VM instance called my-vm-2 in that zone, I executed this command:
   <!-- The complete lab title goes here 👇🏾-->
   <summary>Lab 2: GCP Fundamentals: Getting Started with Cloud Storage and Cloud SQL</summary>
   <!-- Provide path to the screenshot here. Example 👇🏾-->
-  <img src="screenshots/lab2.PNG">
+  <img src="screenshots\lab2.PNG">
 </details>
 
 ## Translation code
