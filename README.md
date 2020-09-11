@@ -44,7 +44,7 @@ To create a VM instance called my-vm-2 in that zone, I executed this command:
 ## Translation code
 
 ```
-Your translations code can rest here
+
 ```
 
 <details>
@@ -57,7 +57,7 @@ Your translations code can rest here
 ## Translation code
 
 ```
-Your translations code can rest here
+
 ```
 
 <details>
